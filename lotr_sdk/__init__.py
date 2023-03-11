@@ -1,4 +1,5 @@
-from .movie import MovieAPI
+# Absolute imports to ensure the modules work when imported
+from lotr_sdk.movie import MovieAPI
 
 class LotrSDK():
     """The One API client object

@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "isaac-lotr-sdk"
-version = "0.0.1"
+version = "0.0.2"
 description = "SDK Implementing https://the-one-api.dev API to serve information on all LOTR lore."
 authors = ["Isaac Aderonmu <aderonmuisaac@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "isaac_lotr_sdk"}]
+packages = [{include = "lotr_sdk"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"

@@ -44,5 +44,6 @@ class MovieAPI:
         try:
             # Send the API request and parse the response to a python dict object
             response = requests.get(f"{url}{params}", headers=self.custom_headers).json()
+            return response
         except Exception as e:
             logger.error(f"Request failed with error: {e}")
